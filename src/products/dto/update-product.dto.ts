@@ -1,4 +1,7 @@
 export class UpdateProductDto {
-  readonly title: string;
+  readonly id: string;
+  readonly name: string;
+  readonly description?: string;
+  readonly size: number;
   readonly price: number;
 }
